@@ -21,6 +21,29 @@ This section will only talk about bare Python installation. The use of [Anaconda
 
 Python is also fast changing. Some of the features mentioned in this section may not be available in older versions. This section assumes Python >=3.10.
 
+### C Compiler/Linker
+
+Some of the Python packages require a C compiler/linker to build the package. If you are not sure what to install, this section will give a default solution.
+
+Note that some Python packages also require specific program to be pre-installed. Please refer to the package documentation for more information. Typically, they can be installed through your system package manager.
+
+#### Windows
+
+- Install [Visual Studio](https://visualstudio.microsoft.com/) with the following component:
+  - Desktop development with C++
+- Install CMake through winget:
+  ```powershell
+    winget install cmake
+  ```
+
+#### macOS
+
+- Install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) from App Store.
+- Install CMake through Homebrew:
+  ```bash
+    brew install cmake
+  ```
+
 ## Virtual Environment
 
 Dependency issues are common in Python, especially when multiple projects depend on a package but with different versions. It is recommended to use a [virtual environment](https://docs.python.org/3/library/venv.html) for each project.

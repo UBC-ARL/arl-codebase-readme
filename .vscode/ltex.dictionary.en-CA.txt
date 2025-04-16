@@ -7,3 +7,4 @@ UniGetUI
 PyQtGraph
 PySide
 PyQt
+mdBook
