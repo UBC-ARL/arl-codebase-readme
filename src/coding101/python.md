@@ -1,6 +1,6 @@
 # Python
 
-Python guides are everywhere. This section is not a quick-start guide for Python programming, but rather a collection of useful tips and best-practices in Python developments.
+Python guides are everywhere. This section is not a quick-start guide for Python programming, but rather a collection of useful tips and best-practices in Python application developments.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # Package Manager
 
-If you are Linux/MacOS user, you are probably familiar with `apt`, `brew`. If so, you can skip this section.
+If you are Linux/macOS user, you are probably familiar with `apt`, `brew`. If so, you can skip this section.
 
 For Windows users, checkout [`winget`](https://learn.microsoft.com/en-us/windows/package-manager/) and/or [`scoop`](https://github.com/ScoopInstaller/Scoop), [`chocolatey`](https://github.com/chocolatey/choco).
 
